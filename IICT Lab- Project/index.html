@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeGlasses</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/app.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Merriweather&family=Noto+Sans&family=Oxygen&family=Quando&display=swap"
+    rel="stylesheet">">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./img/glasses.png" width="60px" alt=""></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Eye Glasses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Ray-Ban.html">Ray-Ban</a></li>
+                  <li><a class="dropdown-item" href="Oakley.html">Oakley</a></li>
+                  <li><a class="dropdown-item" href="Persol.html">Persol</a></li>
+                  <li><a class="dropdown-item" href="Oliver Peoples.html">Oliver Peoples</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sun Glasses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Vogue Eyewear.html">Vogue Eyewear</a></li>
+                  <li><a class="dropdown-item" href="Sunglass Hut.html">Sunglass Hut</a></li>
+                  <li><a class="dropdown-item" href="LensCrafters.html">LensCrafters</a></li>
+                  <li><a class="dropdown-item" href="Target Optical.html">Target Optical</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Lanses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="AMARA Eye Lenses.html">AMARA Eye Lenses</a></li>
+                  <li><a class="dropdown-item" href="Bella Contact Lenses.html">Bella Contact Lenses</a></li>
+                  <li><a class="dropdown-item" href="Freshlook Contact Lenses.html">Freshlook Contact Lenses</a></li>
+                  <li><a class="dropdown-item" href="Dahab Lenses.html">Dahab Lenses</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contact Us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img 2/pic1.jpg" class="d-block w-100" height="600px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img 2/pic2.jpg" class="d-block w-100" height="600px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img 2/pic3.jpg" class="d-block w-100" height="600px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img 2/pic4.jpg" class="d-block w-100" height="600px" alt="...">
+          </div>
+        </div>
+
+        <h2>
+          LOOKING OUT
+          <br>FOR YOUR EYES.
+        </h2>
+        <h2>
+          Shop eyewear and contacts at the best possible price.
+        </h2>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/glass 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ray-Ban</h5>
+                  <p class="card-text">RB6789</p>
+                  <h5>RS 98$</h5>
+                  <a href="single-product.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/glass 2.jpg" class="card-img-top" height="195px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ray-Ban</h5>
+                  <p class="card-text">RG5677</p>
+                  <h5>RS 99$</h5>
+
+                  <a href="single-product2.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/glass 3.png" class="card-img-top" height="193px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ray-Ban</h5>
+                  <p class="card-text">RH5644</p>
+                  <h5>RS 65$</h5>
+
+                  <a href="single-product3.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/glass 4.jpg" class="card-img-top" height="195px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ray-Ban</h5>
+                  <p class="card-text">FF6777</p>
+                  <h5>RS 100$</h5>
+
+                  
+                  <a href="single-product4.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+      
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/sun glass 1.jpg" class="card-img-top" height="197px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunglass Hut</h5>
+                  <p class="card-text">RB6789</p>
+                  <h5>RS 98$</h5>
+                  <a href="single-product13.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/sun glass 2.jpg" class="card-img-top" height="197px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunglass Hut</h5>
+                  <p class="card-text">RG5677</p>
+                  <h5>RS 50$</h5>
+                  <a href="single-product14.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/sun glass 3.jpg" class="card-img-top" height="193px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunglass Hut</h5>
+                  <p class="card-text">RH5644</p>
+                  <h5>RS 98$</h5>
+                  <a href="single-product15.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="product-box">
+              <div class="card" style="width: 18rem;">
+                <img src="img/sun glass 4.jpg" class="card-img-top" height="195px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunglass Hut</h5>
+                  <p class="card-text">FF6777</p>
+                  <h5>RS 99$</h5>
+                  <a href="single-product16.html" class="btn btn-primary">Buy</a>
+                  <div class="cartButton">
+
+                    <button id="cart" onclick="myFunction()">Add to cart.</button>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+      
+      
+      
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="product-box">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/lens 1.jpg" class="card-img-top" height="197px" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dahab Lens</h5>
+                    <p class="card-text">RB6789</p>
+                    <h5>RS 111$</h5>
+                    <a href="single-product17.html" class="btn btn-primary">Buy</a>
+                    <div class="cartButton">
+
+                      <button id="cart" onclick="myFunction()">Add to cart.</button>
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+        
+        
+            <div class="col-md-3">
+              <div class="product-box">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/lens 2.jpg" class="card-img-top" height="197px" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dahab Lens</h5>
+                    <p class="card-text">RG5677</p>
+                    <h5>RS 98$</h5>
+                    <a href="single-product18.html" class="btn btn-primary">Buy</a>
+                    <div class="cartButton">
+
+                      <button id="cart" onclick="myFunction()">Add to cart.</button>
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+        
+        
+            <div class="col-md-3">
+              <div class="product-box">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/lens 3.jpg" class="card-img-top" height="193px" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dahab Lens</h5>
+                    <p class="card-text">RH5644</p>
+                    <h5>RS 78$</h5>
+                    
+                    <a href="single-product19.html" class="btn btn-primary">Buy</a>
+                    <div class="cartButton">
+
+                      <button id="cart" onclick="myFunction()">Add to cart.</button>
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+        
+        
+            <div class="col-md-3">
+              <div class="product-box">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/lens 4.jpg" class="card-img-top" height="195px" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dahab Lens</h5>
+                    <p class="card-text">FF6777</p>
+                    <h5>RS 100$</h5>
+                    
+                    <a href="single-product20.html" class="btn btn-primary">Buy</a>
+                    <div class="cartButton">
+
+                      <button id="cart" onclick="myFunction()">Add to cart.</button>
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+        
+        
+        
+          </div>
+        </div>
+      <footer>
+        © 2023 Eye Glasses, Inc. All rights reserved. EyeGlasses.com and Eye Glasses are registered trademarks of Vision Service Plan.
+        <h6>Created By: Veron kumar & M.Mohib</h6>>
+      </footer>
+</body>
+<script src="./js/script.js"></script>
+</html>

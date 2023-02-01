@@ -1,0 +1,9 @@
+.container{
+    height: 90vh;
+    width: 80vw;
+    background-color: #5FDFFC;
+    border-radius: 20PX;
+}
+.h1{
+    background-color: black;
+}
